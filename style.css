@@ -111,7 +111,7 @@ body {
   align-items: center;
 }
 #hero {
-  background-image: url("/photo_2023-03-27_14-29-03.jpg");
+  background-image: url(https://github.com/Stoic-123/Movies-Rate/blob/main/photo_2023-03-27_14-29-03.jpg?raw=true);
 
   width: 90%;
   height: 90vh;
@@ -298,7 +298,7 @@ p {
   display: flex;
 
   flex-direction: column;
-  background-image: url(/photo_2023-03-28_12-36-37.jpg);
+  background-image: url(https://github.com/Stoic-123/Movies-Rate/blob/main/photo_2023-03-28_12-36-37.jpg?raw=true);
   min-width: 540px;
   height: 50vh;
   background-size: cover;
@@ -367,7 +367,7 @@ p {
   display: flex;
 
   flex-direction: column;
-  background-image: url(/photo_2023-03-28_21-02-22.jpg);
+  background-image: url(https://github.com/Stoic-123/Movies-Rate/blob/main/photo_2023-03-28_21-02-22.jpg?raw=true);
   min-width: 30%;
   height: 30vh;
   background-size: cover;
@@ -379,10 +379,10 @@ p {
 }
 
 #banner3 .banner-box2 {
-  background-image: url(/photo_2023-03-29_11-01-10.jpg);
+  background-image: url(https://github.com/Stoic-123/Movies-Rate/blob/main/photo_2023-03-29_11-01-10.jpg?raw=true);
 }
 #banner3 .banner-box3 {
-  background-image: url(/photo_2023-03-29_11-22-50.jpg);
+  background-image: url(https://github.com/Stoic-123/Movies-Rate/blob/main/photo_2023-03-29_11-22-50.jpg?raw=true);
 }
 #banner3 h4 {
   color: rgb(255, 255, 255);
