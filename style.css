@@ -138,6 +138,23 @@ p {
 #hero h1 {
   color: cadetblue;
 }
+#page-header {
+  background-image: url(https://i.pinimg.com/originals/1c/f9/68/1cf968fbd51421e44992437a1588a095.jpg);
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 14px;
+}
+#page-header p {
+  color: rgb(95, 85, 72);
+}
+#page-header h2 {
+  color: #473d3d;
+}
 #hero button {
   background-image: url("https://raw.githubusercontent.com/tech2etc/Build-and-Deploy-Ecommerce-Website/main/img/button.png");
   background-color: transparent;
@@ -165,6 +182,7 @@ p {
 #feature .fe-box:hover {
   box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
 }
+
 #feature .fe-box h6 {
   padding: 9px 8px 6px 8px;
   line-height: 1;
@@ -501,6 +519,67 @@ footer .CopyRight {
 #close {
   display: none;
 }
+#pagination {
+  text-align: center;
+}
+#pagination a {
+  text-decoration: none;
+  background-color: #817171;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: white;
+}
+#pagination a i {
+  font-size: 16px;
+  font-weight: 600;
+}
+#prodetails .single-pro-img {
+  width: 40%;
+  margin-right: 50px;
+}
+.small-img-group {
+  display: flex;
+  justify-content: space-between;
+}
+.small-img-col {
+  flex-basis: 24%;
+  cursor: pointer;
+}
+#prodetails {
+  display: flex;
+  margin-top: 20px;
+}
+#prodetails .single-pro-details {
+  width: 50%;
+  padding-top: 30px;
+}
+#prodetails .single-pro-details h4 {
+  padding: 40px 0 20px 0;
+}
+#prodetails .single-pro-details h2 {
+  font-size: 26px;
+}
+#prodetails .single-pro-details select {
+  display: block;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+#prodetails .single-pro-details input {
+  width: 50px;
+  height: 47px;
+  padding-left: 16px;
+  margin-right: 10px;
+}
+#prodetails .single-pro-details button {
+  background: #836d6d;
+  color: white;
+}
+#prodetails .single-pro-details input:focus {
+  outline: none;
+}
+#prodetails .single-pro-details span {
+  line-height: 25px;
+}
 @media (max-width: 799px) {
   .section-p1 {
     padding: 40px 40px;
@@ -647,5 +726,14 @@ footer .CopyRight {
   }
   #newsletter {
     padding: 40px 20px;
+  }
+
+  #prodetails {
+    display: flex;
+    flex-direction: column;
+  }
+  #prodetails .single-pro-img {
+    width: 100%;
+    margin-right: 0px;
   }
 }
